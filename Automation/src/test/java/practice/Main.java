@@ -17,7 +17,18 @@ public class Main {
 	//string.strings();
 	
 	Arrays arr = new Arrays();
-	arr.Arr();
+	//arr.Arr();
+	
+	Excercise ex = new Excercise();
+	int re = ex.checkNumber();
+	System.out.println(re);
+	
+	
+	  SumAndProductExcercise ex1= new SumAndProductExcercise(); int sum =
+	  ex1.returnSum(); System.out.println(sum);
+	  
+	  int product = ex1.returnProduct(); System.out.println(product);
+	 
 	}
 
 }
