@@ -4,7 +4,6 @@ public class Main {
 
 	public static void main(String[] args) {
 
-
 		/*
 		 * Forloop loop1 = new Forloop(); loop1.loop();
 		 */
@@ -19,15 +18,20 @@ public class Main {
 	Arrays arr = new Arrays();
 	//arr.Arr();
 	
-	Excercise ex = new Excercise();
-	int re = ex.checkNumber();
-	System.out.println(re);
-	
-	
-	  SumAndProductExcercise ex1= new SumAndProductExcercise(); int sum =
-	  ex1.returnSum(); System.out.println(sum);
+	/*
+	 * Excercise ex = new Excercise(); int re = ex.checkNumber();
+	 * System.out.println(re);
+	 * 
+	 * 
+	 * SumAndProductExcercise ex1= new SumAndProductExcercise(); int sum =
+	 * ex1.returnSum(); System.out.println(sum);
+	 * 
+	 * int product = ex1.returnProduct(); System.out.println(product);
+	 */
+	 
 	  
-	  int product = ex1.returnProduct(); System.out.println(product);
+	  Computer comp1 = new Computer("Intel");
+	  System.out.println(comp1.processor);
 	 
 	}
 
