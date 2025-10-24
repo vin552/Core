@@ -4,6 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		
+		System.out.println("Hello");
 		/*
 		 * Forloop loop1 = new Forloop(); loop1.loop();
 		 */
@@ -30,8 +32,8 @@ public class Main {
 	 */
 	 
 	  
-	  Computer comp1 = new Computer("Intel");
-	  System.out.println(comp1.processor);
+	 // Computer comp1 = new Computer("Intel");
+	 // System.out.println(comp1.processor);
 	 
 	}
 

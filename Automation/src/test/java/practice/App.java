@@ -19,7 +19,8 @@ public class App {
        Car car = new Car();
        car.setID(2);
        car.drive();
-       
-       
+       car.getBrand();
     }
+
+	
 }
