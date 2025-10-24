@@ -13,13 +13,15 @@ public class App {
 		 * int result=computer1.addition(3, 4, "Result is: ");
 		 * System.out.println(result);
 		 */
-       Motorcycle motor = new Motorcycle();
-       motor.setID(1);
-       motor.drive();
-       Car car = new Car();
-       car.setID(2);
-       car.drive();
-       car.getBrand();
+		/*
+		 * Motorcycle motor = new Motorcycle(); motor.setID(1); motor.drive(); Car car =
+		 * new Car(); car.setID(2); car.drive(); car.getBrand();
+		 */
+       Comp2 comp = new Laptop();
+       Comp2 comp1 = new Phone();
+       
+       comp.start();
+       comp1.start();
     }
 
 	
