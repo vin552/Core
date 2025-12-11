@@ -18,8 +18,7 @@ public class Evenorodd {
 			System.out.println("Odd");
 		}
 		
-		
-
+	
 	}
 
 }

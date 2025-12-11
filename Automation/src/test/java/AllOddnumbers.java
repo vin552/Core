@@ -12,7 +12,6 @@ public class AllOddnumbers {
 			count=count+1;
 			System.out.println(i);
 			
-			
 		}
 		
 		}
@@ -21,6 +20,3 @@ public class AllOddnumbers {
 
 	}
 }
-	
-	
-
